@@ -45,7 +45,7 @@
 	function countOfItems(string) {
 		var words = string.split(',');
 		words = words.filter(function (value, index,arr){
-			return value!= "";
+			return value!= " ";
 		});
 		console.log(words);
 		return words.length;
